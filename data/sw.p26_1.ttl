@@ -1,0 +1,10 @@
+
+
+@prefix book: <http://semantic-web-book.org/>.
+@prefix ex: <http://example.org/>.
+@prefix crc: <http://crcpress.com/>.
+
+
+book:uri ex:publishedBy crc:uri.
+book:uri ex:title "Foundations of Semantic Web Technolgy".
+crc:uri ex:name "CRC Press", "CRC".

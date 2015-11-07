@@ -1,0 +1,14 @@
+[
+    {"@id": "http://semantic-web-book.org/Hitzler"},
+    {"@id": "http://semantic-web-book.org/Krötzsch"},
+    {"@id": "http://semantic-web-book.org/Rudolph"},
+    {
+        "@id": "http://semantic-web-book.org/uri",
+        "http://example.org/author": [
+            {"@id": "http://semantic-web-book.org/Hitzler"},
+            {"@id": "http://semantic-web-book.org/Krötzsch"},
+            {"@id": "http://semantic-web-book.org/Rudolph"}
+        ],
+        "http://example.org/title": [{"@value": "Foundations of Semantic Web Technology"}]
+    }
+]

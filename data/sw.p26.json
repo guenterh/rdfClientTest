@@ -1,0 +1,11 @@
+[
+    {
+        "@id": "http://crcpress.com/uri",
+        "http://example.org/name": [{"@value": "CRC Press"}]
+    },
+    {
+        "@id": "http://semantic-web-book.org/uri",
+        "http://example.org/publishedBy": [{"@id": "http://crcpress.com/uri"}],
+        "http://example.org/title": [{"@value": "Foundations of Semantic Web Technolgy"}]
+    }
+]

@@ -1,0 +1,6 @@
+@prefix book: <http://semantic-web-book.org/>.
+@prefix ex: <http://example.org/>.
+@prefix crc: <http://crcpress.com/>.
+
+book:uri    ex:author   book:Hitzler,   book:Krötzsch, book:Rudolph;
+            ex:title    "Foundations of Semantic Web Technology".

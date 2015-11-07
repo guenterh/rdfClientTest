@@ -1,0 +1,8 @@
+{
+    "require": {
+        "elasticsearch/elasticsearch": "~2.0@beta",
+        "easyrdf/easyrdf" : "~0.9.0",
+        "ml/json-ld"  : "~1.0"
+
+    }
+}

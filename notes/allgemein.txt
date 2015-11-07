@@ -1,0 +1,3 @@
+
+Einführung in RDF
+https://github.com/JoshData/rdfabout/blob/gh-pages/intro-to-rdf.md

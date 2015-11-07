@@ -1,0 +1,17 @@
+
+
+Hier der Ausgangspunkt
+http://manu.sporny.org/2014/json-ld-origins-2/#comment-4189
+
+
+Problem von Fabian Steeg mit JSON-LD
+https://fsteeg.wordpress.com/2014/01/28/one-issue-with-json-ld-that-seems-not-so-pragmatic/
+
+
+Antwort von Manu Sporni auf Blog Fabian Steeg
+http://manu.sporny.org/2014/json-ld-origins-2/#comment-4189
+Gist dazu
+https://gist.github.com/msporny/8571005
+
+hier Kritik zu JSON-LD mit Bezug zu Artikel von Manu Sporni
+https://www.ibm.com/developerworks/community/blogs/c06ef551-0127-483d-a104-cdd02b1cee31/entry/february_3_2014_1_47_pm?lang=en
