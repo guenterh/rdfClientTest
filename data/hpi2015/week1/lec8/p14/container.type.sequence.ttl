@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/test#> .
+
+
+ex:SolarSystem ex:hasPlanets [
+    a rdf:Seq ;
+    rdf:_1 ex:Mercury ;
+    rdf:_2 ex:Venus ;
+    rdf:_3 ex:Earth ;
+    rdf:_4 ex:Mars ;
+    rdf:_5 ex:Jupiter ;
+    rdf:_6 ex:Saturn
+] .

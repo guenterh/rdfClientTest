@@ -1,0 +1,43 @@
+[
+    {
+        "@id": "_:b0",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Mercury"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "_:b1"}]
+    },
+    {
+        "@id": "_:b1",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Venus"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "_:b2"}]
+    },
+    {
+        "@id": "_:b2",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Earth"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "_:b3"}]
+    },
+    {
+        "@id": "_:b3",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Mars"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "_:b4"}]
+    },
+    {
+        "@id": "_:b4",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Jupiter"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "_:b5"}]
+    },
+    {
+        "@id": "_:b5",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [{"@id": "http://example.org/test#Saturn"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"}]
+    },
+    {"@id": "http://example.org/test#Earth"},
+    {"@id": "http://example.org/test#Jupiter"},
+    {"@id": "http://example.org/test#Mars"},
+    {"@id": "http://example.org/test#Mercury"},
+    {"@id": "http://example.org/test#Saturn"},
+    {
+        "@id": "http://example.org/test#SolarSystem",
+        "http://example.org/test#hasPlanets": [{"@id": "_:b0"}]
+    },
+    {"@id": "http://example.org/test#Venus"},
+    {"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"}
+]

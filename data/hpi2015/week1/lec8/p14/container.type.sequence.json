@@ -1,0 +1,23 @@
+[
+    {
+        "@id": "_:b0",
+        "@type": ["http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1": [{"@id": "http://example.org/test#Mercury"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2": [{"@id": "http://example.org/test#Venus"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3": [{"@id": "http://example.org/test#Earth"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4": [{"@id": "http://example.org/test#Mars"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5": [{"@id": "http://example.org/test#Jupiter"}],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#_6": [{"@id": "http://example.org/test#Saturn"}]
+    },
+    {"@id": "http://example.org/test#Earth"},
+    {"@id": "http://example.org/test#Jupiter"},
+    {"@id": "http://example.org/test#Mars"},
+    {"@id": "http://example.org/test#Mercury"},
+    {"@id": "http://example.org/test#Saturn"},
+    {
+        "@id": "http://example.org/test#SolarSystem",
+        "http://example.org/test#hasPlanets": [{"@id": "_:b0"}]
+    },
+    {"@id": "http://example.org/test#Venus"},
+    {"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"}
+]

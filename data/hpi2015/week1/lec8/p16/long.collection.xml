@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/test#">
+    
+    <rdf:Description rdf:about="http://example.org/test#SolarSystem">
+        <ex:hasPlanets>
+            <rdf:Description>
+                <rdf:first rdf:resource="http://example.org/test#Mercury"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:first rdf:resource="http://example.org/test#Venus"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:first rdf:resource="http://example.org/test#Earth"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:first rdf:resource="http://example.org/test#Mars"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:first rdf:resource="http://example.org/test#Jupiter"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:first rdf:resource="http://example.org/test#Saturn"/>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                                
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        
+                                    </rdf:Description>
+                                </rdf:rest>
+                                
+                            </rdf:Description>
+                        </rdf:rest>
+                        
+                    </rdf:Description>
+                </rdf:rest>
+                
+            </rdf:Description>
+        </ex:hasPlanets>
+        
+    </rdf:Description>
+    
+</rdf:RDF>
+

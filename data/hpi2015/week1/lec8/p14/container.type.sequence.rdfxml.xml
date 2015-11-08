@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/test#">
+
+    <rdf:Description rdf:about="http://example.org/test#SolarSystem">
+        <ex:hasPlanets>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://example.org/test#Mercury"/>
+                <rdf:li rdf:resource="http://example.org/test#Venus"/>
+                <rdf:li rdf:resource="http://example.org/test#Earth"/>
+                <rdf:li rdf:resource="http://example.org/test#Mars"/>
+                <rdf:li rdf:resource="http://example.org/test#Jupiter"/>
+                <rdf:li rdf:resource="http://example.org/test#Saturn"/>
+            </rdf:Seq>
+        </ex:hasPlanets>
+
+    </rdf:Description>
+
+</rdf:RDF>
