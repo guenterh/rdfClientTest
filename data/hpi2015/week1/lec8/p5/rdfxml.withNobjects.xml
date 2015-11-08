@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns="http://dbpedia.org/resource/">
+    
+    <rdf:Description rdf:about="http://dbpedia.org/ontology/resource/Pluto">
+        <dbo:hasSatellite rdf:resource="http://dbpedia.org/resource/Hydra_(moon)"/>
+        <dbo:hasSatellite rdf:resource="http://dbpedia.org/resource/Nyx_(moon)"/>
+        <dbo:hasSatellite rdf:resource="http://dbpedia.org/resource/Charon_(moon)"/>
+    </rdf:Description>
+    
+</rdf:RDF>
+
+
+

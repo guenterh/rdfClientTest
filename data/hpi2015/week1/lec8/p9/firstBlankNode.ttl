@@ -1,0 +1,6 @@
+@prefix dbo:    <http://dbpedia.org/ontology/>.
+@prefix xsd:    <http://w3c.org/2001/XMLSchema#>.
+@base           <http://dbpedia.org/resource/>.
+
+[]  dbo:spaceShip   <New Horizons>;
+    dbo:visited "2015-07-15"^^xsd:date.

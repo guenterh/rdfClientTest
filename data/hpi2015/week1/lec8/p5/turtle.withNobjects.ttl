@@ -1,0 +1,6 @@
+@prefix dbo:    <http://dbpedia.org/ontology/>.
+@base           <http://dbpedia.org/resources/>.
+
+<Pluto> dbo:hasSatellite    <Hydra_(moon)> ,
+                            <Nyx_(moon)>,
+                            <Charon_(moon)>.

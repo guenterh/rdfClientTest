@@ -1,0 +1,10 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix xsd: <http://www.w3c.org/2001/XMLSchema#> .
+@base <http://dbpedia.org/resource/> .
+
+<Pluto> dbo:SpaceMission [ dbo:spaceShip <New_Horizons> ;
+                            dbo:visited "2015-07-14"^^xsd:date
+                        ],
+                        [ dbo:spaceShip <USS_Enterprise_(NCC-1701)> ;
+                        dbo:visited "2245-07-14"^^xsd:date
+                        ].

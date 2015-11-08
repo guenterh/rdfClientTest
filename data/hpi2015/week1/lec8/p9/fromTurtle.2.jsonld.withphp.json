@@ -1,0 +1,10 @@
+[
+    {
+        "http://dbpedia.org/ontology/spaceShip": [{"@id": "http://dbpedia.org/resource/New Horizons"}],
+        "http://dbpedia.org/ontology/visited": [{
+            "@value": "2015-07-15",
+            "@type": "http://w3c.org/2001/XMLSchema#date"
+        }]
+    },
+    {"@id": "http://dbpedia.org/resource/New Horizons"}
+]

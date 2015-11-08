@@ -1,0 +1,10 @@
+@prefix dbo:    <http://dbpedia.org/ontology/>.
+@prefix xsd:    <http://www.w3c.org/2001/XMLSchema#>.
+@prefix rdfs:   <http://www.w3.org/2000/01rdf-schema#>.
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@base           <http://dbpedia.org/resource/>.
+
+<Pluto> dbo:meanRadius  "1161.00"^^xsd:double;
+        dbo:meanTemperature "44.00"^^xsd:double;
+        dbo:discovered      "1930-02-18"^^xsd:date;
+        rdfs:label          "Pluto"@en.

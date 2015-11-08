@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dbo="http://dbpedia.org/ontology/">
+
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Pluto">
+        <dbo:SpaceMission>
+            <rdf:Description>
+                <dbo:spaceShip rdf:resource="http://dbpedia.org/resource/New_Horizons"/>
+                <dbo:visited rdf:datatype="http://www.w3c.org/2001/XMLSchema#date">2015-07-14</dbo:visited>
+            </rdf:Description>
+        </dbo:SpaceMission>
+
+        <dbo:SpaceMission>
+            <rdf:Description>
+                <dbo:spaceShip rdf:resource="http://dbpedia.org/resource/USS_Enterprise_(NCC-1701)"/>
+                <dbo:visited rdf:datatype="http://www.w3c.org/2001/XMLSchema#date">2245-07-14</dbo:visited>
+            </rdf:Description>
+        </dbo:SpaceMission>
+
+    </rdf:Description>
+
+</rdf:RDF>

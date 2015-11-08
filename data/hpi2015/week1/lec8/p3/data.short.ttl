@@ -1,0 +1,5 @@
+@prefix dbo:    <http://dbpedia.org/>.
+#@base           <http://dbpedia.org/resource/>.
+
+<Pluto>     dbo:discovered  "1930".
+<Pluto>     dbo:discovered  <Clyde_Tombaugh> .
