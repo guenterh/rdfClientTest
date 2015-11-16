@@ -1,0 +1,14 @@
+@prefix dbpedia:        <http://dbpedia.org/resource/> .
+@prefix dbpedia-owl:    <http://dbpedia.org/ontology/> .
+@prefix foaf:           <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+dbpedia:Bonobo  rdf:type
+                dbpedia-owl:Eukaryote ,
+                dbpedia-owl:Mammal ,
+                dbpedia-owl:Animal .
+
+dbpedia:Bonobo  foaf:name
+                "Bonobo"@en ;
+                foaf:depiction <http://upload.wikimedia.org/wikipedia/commons/a/a6/Bonobo-04.jpg>.

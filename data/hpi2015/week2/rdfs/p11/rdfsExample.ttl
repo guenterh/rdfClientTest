@@ -1,0 +1,25 @@
+#this forms an RDFS knowledge base
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://example.org/Space#> .
+
+:Planet rdf:type rdfs:Class ;
+    rdfs:subClassOf :CelestialBody .
+
+:Satellite rdf:type rdfs:Class ;
+    rdfs:subClassOf :CelestialBody .
+:ArtificialSatellite rdf:type rdfs:Class ;
+    rdfs:subClassOf :Satellite .
+:satelliteOf rdf:type rdf:Property .
+:satelliteOf rdfs:domain :CelestialBody .
+:satelliteOf rdfs:range :CelestialBody .
+:Earth rdf:type :Planet.
+:Moon rdf:type :Satellite;
+    :satelliteOf    :Earth.
+
+:Sputnik1 rdf:type :ArtificialSatellite ;
+    :satelliteOf :Earth;
+    rdfs:label  "Sputnik_1"@en;
+    rdfs:comment "the first artificial Earth satellite in 1957" .
+
